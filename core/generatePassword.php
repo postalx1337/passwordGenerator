@@ -21,8 +21,4 @@ class PasswordGenerator{
         }
     }
 }
-
-$pwd = new PasswordGenerator();
-$pwd->setPasswordLength(16);
-echo ($pwd->generatePassword());
 ?>
